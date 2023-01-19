@@ -1,0 +1,106 @@
+.loadingSpinnerContainer {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 5000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loadingSpinner {
+    width: 64px;
+    height: 64px;
+    border: 8px solid;
+    border-color: rgb(222, 108, 7) transparent rgb(222, 108, 7) transparent;
+    border-radius: 50%;
+    animation: spin 1.2s linear infinite;;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.emailinput {
+    margin-bottom: 2rem;
+    width: 400px;
+    outline: none;
+    border: none;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.forgotpasswordlink{
+    color: var(--color-one);
+    text-decoration: none;
+    font-weight: 600;
+    background-color: #fff;
+    max-width: 70px;
+    padding: 7px 15px;
+    border-radius: 5px;
+}
+
+.pageheader {
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+    color: var(--color-one);
+}
+
+.forgotpasswordlink:hover {
+    color: var(--color-one);
+}
+
+.submitform {
+    background-color: var(--color-one);
+    padding: 40px;
+    border-radius: 5px;
+    margin: 7px 10px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.signinbar {
+    margin-top: 2rem;
+    cursor: pointer;
+}
+
+.signinbar button {
+    padding: 7px 15px;
+    background: #fff;
+    color: var(--color-one);
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    transition: .3s;
+    font-weight: 600;
+}
+
+.signinbar a {
+    color: rgb(196, 193, 193);
+}
+
+.signinbar a:hover {
+    color: #fff;
+}
+
+@media only screen and (max-width: 768px) {
+    .submitform {
+        width: 300px;
+    }
+
+    .emailinput {
+        width: 200px;
+    }
+}

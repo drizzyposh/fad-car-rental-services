@@ -1,0 +1,83 @@
+.profile {
+    margin-bottom: 0.5rem;
+}
+
+.profile-section {
+    padding: 25px 45px;
+}
+
+.profileHeader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logout {
+    padding: 7px 15px;
+  background: var(--color-one);
+  color: #fff;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  transition: .3s;
+}
+
+.pageHeader {
+    font-size: 2rem;
+}
+
+.profiledetailsheader {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35px;
+}
+
+.personaldetailstext {
+    font-weight: 600;
+}
+
+.changepersonaldetails {
+    cursor: pointer;
+    font-weight: 600;
+    color: rgb(218, 88, 12);
+}
+
+.profilecard {
+    background-color: #efebeb;
+    border-radius: 1rem;
+    padding: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.2);
+    max-width: 1000px;
+}
+
+.profileNameActive{
+    background-color: rgba(44, 44, 44, 0.1);
+}
+
+.profileName,
+.profileEmail,
+.profileAddress,
+.profileAddressActive,
+.profileEmailActive,
+.profileNameActive {
+  all: unset;
+  margin: 0.3rem 0;
+  font-weight: 600;
+  width: 100%;
+}
+
+.profileEmail,
+.profileAddress,
+.profileAddressActive,
+.profileEmailActive {
+  font-weight: 500;
+}
+
+.profileEmailActive {
+    background-color: rgba(44, 44, 44, 0.1);
+}
+
+
+.profileAddressActive {
+    background-color: rgba(44, 44, 44, 0.1);
+}

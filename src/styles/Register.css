@@ -1,0 +1,51 @@
+.auth-form {
+    background-color: var(--color-one);
+    padding: 40px;
+    border-radius: 5px;
+}
+.auth-form p  {
+    margin-top: 30px;
+    color: rgb(196, 193, 193);
+    cursor: pointer;
+}
+
+.auth-form a {
+    color: rgb(196, 193, 193);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.auth-form a:hover {
+    color: #fff;
+}
+
+.submit-btn  {
+    padding: 7px 15px;
+    color: #fff;
+    border: 1px solid #fff;
+    outline: none;
+    border-radius: 5px;
+    transition: .3s;
+    cursor: pointer;
+    width: 30%;
+}
+
+.auth-btn {
+    background: #fff;
+    color: var(--color-one);
+    font-weight: 600;
+}
+
+p a {
+    color: rgb(196, 193, 193);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.forgot:hover {
+    color: #fff;
+}
+
+p  a:hover {
+    color: #fff;
+}

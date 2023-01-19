@@ -1,0 +1,13 @@
+.payment {
+    font-weight: 600;
+    color: var(--color-one);
+}
+
+.payment button {
+    padding: 8px 15px;
+    border-radius: 5px;
+    background: var(--color-one);
+    color: #fff !important;
+    border: none;
+    outline: none;
+}

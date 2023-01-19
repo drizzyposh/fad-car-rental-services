@@ -1,0 +1,32 @@
+.contact-form input, .contact-form textarea {
+    border: 1px solid rgba(0,12,107,0.18);
+    outline: none;
+    padding: 7px 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.contact-btn {
+    padding: 7px 15px;
+    background: var(--color-one);
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    transition: .3s;
+}
+
+.social-link-icon {
+    text-decoration: none;
+    color: var(--color-one);
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+@media only screen and (max-width: 768px) {
+    .contact-btn {
+        margin-bottom: 40px;
+        font-size: 0.8rem;
+    }
+}

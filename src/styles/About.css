@@ -1,0 +1,12 @@
+@media screen and (max-width:992px) {
+    .about-img-content {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .about-img {
+        display: none;
+    }
+}
+
