@@ -1,5 +1,8 @@
 # Car Rental Service website
 
+## Overview
+A responsive Car rental website that shows various brands of cars available for rent. I made use of Firebase Authentication to for the backend of the website. Each of the user datas are stored in firestore database.
+
 * Technolgies and libaries used
   * React.js
   * Bootstrap
@@ -7,9 +10,6 @@
   * React slick carousel
   * Remixicon
   * Firebase
-
-## Overview
-A responsive Car rental website that shows various brands of cars available for rent. I made use of Firebase Authentication to for the backend of the website. Each of the user datas are stored in firestore database.
 
 ## Features
 
