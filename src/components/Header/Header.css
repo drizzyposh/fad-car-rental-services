@@ -169,6 +169,16 @@
     .search-bar {
         display: none;
     }
+    
+    .header-top-right {
+        position: relative;
+    }
+
+    .profilebar {
+       position: absolute;
+       top: 0;
+       bottom: -80px;
+    }
 
     .header-top,
     .header-middle,
