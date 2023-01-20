@@ -57,9 +57,9 @@ const Header = () => {
                     <motion.i whileTap={{ scale: 1.2}} class="ri-login-box-line"></motion.i> Login
                   </Link> */}
 
-                  {/* <Link to="/register" className='d-flex align-items-center gap-1'>
+                   <Link to="/register" className='d-flex align-items-center gap-1 d-none'>
                     <motion.i whileTap={{ scale: 1.2 }} class="ri-user-line"></motion.i> Register
-                  </Link> */}
+                  </Link> 
 
                   <Link to="/profile" className='d-flex align-items-center gap-1'>
                     <motion.i whileTap={{ scale: 1.2 }} class="ri-user-line"></motion.i> Profile
