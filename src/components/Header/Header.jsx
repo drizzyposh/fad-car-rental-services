@@ -61,7 +61,7 @@ const Header = () => {
                     <motion.i whileTap={{ scale: 1.2 }} class="ri-user-line"></motion.i> Register
                   </Link> 
 
-                  <Link to="/profile" className='d-flex align-items-center gap-1'>
+                  <Link to="/profile" className='d-flex align-items-center gap-1 profilebar'>
                     <motion.i whileTap={{ scale: 1.2 }} class="ri-user-line"></motion.i> Profile
                   </Link>
                 </div>
