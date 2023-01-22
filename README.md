@@ -19,4 +19,4 @@ A responsive Car rental website that shows various models of cars available for 
 - If your password cannot be remebered, you can click on the "Forgot password", input your email address and click on the "Send reset link" and you receive an email on how to reset your password. Therefore, once passowrd is being reset users can login with the new password.
 
 ### Live link to project
-rentcarservice.netlify.app
+https://fadcarservices.netlify.app
